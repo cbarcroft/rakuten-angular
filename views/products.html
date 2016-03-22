@@ -1,0 +1,11 @@
+<!-- Custom product list directive that generates the product list table. -->
+<ng-product-list products="products"></ng-product-list>
+
+<!-- Displays a loading indicator while the application is working on retrieving data from the API. -->
+<div id="loading-indicator" ng-if="dataLoading">
+    Loading...
+</div>
+<!-- Displays error message contents if an error is generated -->
+<div id="error-container" ng-if="error">
+	{{ error }}
+</div>

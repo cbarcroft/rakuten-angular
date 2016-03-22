@@ -1,0 +1,13 @@
+<!-- Template for the product-list directive -->
+<div id="product-container">
+	<table id="product-table">
+		<thead>
+			<th>PRODUCT</th>
+			<th>ADVERTISER</th>
+		</thead>
+		<tr ng-repeat="product in products">
+			<td>{{ product.name }}</td>
+			<td>{{ product.advertiser }}</td>
+		</tr>
+	</table>
+</div>

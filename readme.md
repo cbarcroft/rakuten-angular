@@ -1,0 +1,5 @@
+Here is the AngularJS portion of the assignment.  I have configured it to work with the Rails API deployed on Heroku at http://cbarcroft-rakuten.herokuapp.com/products.json
+
+The ng-product-list directive is implemented as an element, which accepts the product list as an attribute.  The ProductsService handles communication with the API, caching the product data, and returning it to the controller as a promise.  The controller handles presentation of the loading message, error message(if any), and setting the product data in scope once the promise resolves.  
+
+I will attempt to upload this to Heroku as well, but I will have to make a couple of small Heroku-specific modifications, so I want to save and send the most neutral version of the solution which you can expect to run locally.  Let me know if you have any questions!
